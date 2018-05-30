@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/jy/controller/system/account/AccountController.java=UTF-8
+encoding//src/main/java/com/jy/controller/workflow/instance/HisInstanceController.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/redis.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/common/includeBaseSet.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/common/includeCommon.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/common/includeSystemSet.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/system/index.jsp=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8

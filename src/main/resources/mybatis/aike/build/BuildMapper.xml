@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jy.dao.aike.BuildDao">
+
+
+	<insert id="insertAreaInfo" parameterType="AreaInfo">
+		insert into area_info (id,area_name,area_type,area_full_name) values
+		(#{id,jdbcType=VARCHAR},#{areaName,jdbcType=VARCHAR},#{areaType,jdbcType=VARCHAR},#{areaFullName,jdbcType=VARCHAR})
+	</insert>
+	<update id="updateAreaInfo" parameterType="AreaInfo">
+		update area_info set area_name=#{areaName},area_type=#{areaType} where id =
+		#{id}
+	</update>
+
+	<select id="listAreaInfo" resultType="AreaInfo">
+		select id as id,area_name as areaName,area_type as areaType from area_info
+	</select>
+
+	<select id="getAreaInfo" resultType="AreaInfo" parameterType="String">
+		select id as id,area_name as areaName,area_type as areaType from
+		area_info where #{id}
+	</select>
+
+
+
+</mapper>
